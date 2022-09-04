@@ -6,6 +6,7 @@
     --Dark-grayish-cyan: hsl(186, 14%, 43%);
     --Grayish-cyan: hsl(184, 14%, 56%);
     --Light-grayish-cyan: hsl(185, 62%, 77%);
+    --background:  hsl(185, 41%, 84%);
     --Very-light-grayish-cyan: hsl(189, 41%, 97%);
     --White: hsl(0, 0%, 100%);
 }
@@ -17,10 +18,11 @@
 }
 
 body {
-    background: var(--Light-grayish-cyan);
+    background: var(--background);
     height: 120vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-family: 'Space Mono', monospace;
 }
